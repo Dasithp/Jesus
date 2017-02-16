@@ -1,10 +1,10 @@
 #1/bin/bash
-#hello
+#hello #its me
 if [ $# -eq 0 ]; then #commmand runs if variable is equal to or greater than 0 
 	echo "Usage: $0 filename" #displays this message
 	exit 1 #error message for above test failing 
 fi #closes this if then command 
-#Hallelujah
+
 filename=$1 #refers to the first argument 
 
 echo -n "The number of genes in $filename is " #displays this line without the trailing newline with the answer to the pipeline below to tell you number of genes present
