@@ -14,4 +14,4 @@ cat $filename | #prints the contents of the file to the screen
 	cut -f3 | #extracts third field because that's the column with the type in the file  
 	grep gene | #finds and prints lines with the word gene anywhere because we want to count the number of genes that this species has 
 	wc -l #counts the number of lines that were identified by the above commands so you get your number of genes in the file
-
+#changing last line
