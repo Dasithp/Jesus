@@ -1,6 +1,6 @@
 #1/bin/bash
 #hello #its me #blah #changed again
-
+#hi I am making changes
 if [ $# -eq 0 ]; then #commmand runs if variable is equal to or greater than 0 
 	echo "Usage: $0 filename" #displays this message
 	exit 1 #error message for above test failing 
